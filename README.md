@@ -41,4 +41,4 @@ Try to guess the randomly generated number between **0 and 100** in the fewest a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/number-guessing-game.git
+git clone https://github.com/sangeetha10122003/number-guessing-game/tree/main
