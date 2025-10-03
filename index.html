@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Left Side -->
+    <div class="left">
+      <h1>Number <br> Guessing Game</h1>
+      <img src="png guess.jpeg" >
+    </div>
+
+    <!-- Right Side -->
+    <div class="right">
+      <h2>Guess the Number</h2>
+      <p>( B/W 0 to 100 )</p>
+
+      <input type="number" id="guessInput" placeholder="Enter number">
+      <button onclick="checkGuess()">Guess</button>
+
+      <p id="message"></p>
+
+      <div class="buttons">
+        <button onclick="giveUp()">Give UP!</button>
+        <button onclick="newGame()">New Game</button>
+      </div>
+
+      <div class="stats">
+        <p>Attempts Made: <span id="attempts">0</span></p>
+        <p>Highest Score: <span id="highscore">0</span></p>
+        <p>Time Taken (MM:SS): <span id="timer">00:00</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
